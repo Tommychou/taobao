@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>pPage</title>       
+        <link href="css/taobao.css" rel="stylesheet" />
+        <link href="css/mobilebone.css" rel="stylesheet" />
+        <script src="js/mobilebone.js"></script>
+        <script src="js/jquery-1.11.3.min.js"></script>
+        <script src="js/lb.js"></script>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/taobao.js"></script>
+        
+
+        <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1" />
+    </head>
+    <body>
+    <script>
+    var iWidth=document.documentElement.getBoundingClientRect().width;iWidth=iWidth>540?540:iWidth;
+    document.getElementsByTagName("html")[0].style.fontSize=iWidth/10+"px";
+    </script>
+    <section id="pPageWrap" class="page out">
+
+    <ul class="pList clear">
+        <li class="pActive">基本信息</li>
+        <li>商品详情</li>
+        <li>尺码</li>
+        <li>评价134787</li>
+    </ul>
+    <div id="pW">
+        <div class="pWOne"><img src="img2/33.png">客服</div>
+        <div class="pWTwo"><img src="img2/34.png">收藏</div>
+        <div class="pWThree"><img src="img2/35.png">进店</div>
+        <div class="pWFour"><a href="#page2">加入购物车</a></div>
+        <div class="pWFive"><a href="#page2">立即购买</a></div>
+        
+    </div>
+    <div id="pTan1">加入购物车成功!</div>
+    <section id="pPage" class="pages pageShow">
+        <div id="pLeft"></div>
+        <div id="pRight"><a href="#buy"></a></div>
+        <script>
+            pOpen();
+        </script>
+        <nav id="pNav">
+            <ul class="pl" id="pl">
+                <li><img src="img2/21.jpg"/></li>
+                <li><img src="img2/22.jpg" /></li>
+                <li><img src="img2/23.jpg" /></li>
+                <li><img src="img2/24.jpg" /></li>
+                <li><img src="img2/25.jpg" /></li>
+            </ul>
+            
+        </nav>
+        <ul class="pNum" id="pNum">
+            <li><a href="javascript:;" class="active"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+        </ul>
+        <script>
+            pfnTab();
+
+        </script>
+        <div class="cotent">
+            娅莱娅夏休闲鞋厚底增高运动鞋女鞋透气跑鞋运动风阿甘鞋网纱板鞋
+        </div>
+
+        <div class="pPrice">￥28.00-37.00</div>
+        <span class="pTime">限2小时</span><br>
+        <span class="padr">快递:0.00</span><span class="padr">月销量55872件</span><span class="padr pno">浙江温州</span>
+        <div class="clear">
+            <div class="pback">T2极速退款</div>
+            <div class="pback">七天退换</div>
+        </div>
+        <div class="pKong"></div>
+        <div class="pSong">送14天猫积分</div>
+        <div class="pKong"></div>
+        <div class="pXuan"><a href="#page2">选择：尺码/颜色分类</a></div>
+        <div class="pKong"></div>
+        <div class="pinr">
+            <ul class="pinrOne clear">
+                <li><img src="img2/30.jpg" alt=""></li>
+                <li>娅莱娅鞋类旗舰店</li>
+            </ul>
+            <ul class="pinrTwo clear">
+                <li>描述相符4.8<img src="img2/p2.png"></li>
+                <li>服务态度4.7<img src="img2/p3.png"></li>
+                <li>发货速度4.7<img src="img2/p4.png"></li>
+            </ul>
+            <ul class="pinrThree clear">
+                <li>全部商品</li>
+                <li>进入店铺</li>
+            </ul>
+        </div>
+
+    </section>
+               
+    </section>
+
+    <section id="buy" class="page out">
+        <section id="bPage" class="pages pageShow" style="background:#eeeeee;">
+            <ul class="b2Header clear">
+                <li><a href="#pPageWrap" data-rel="back">&lt;&nbsp;返回</a></li> 
+                <li>&nbsp;购物车</li>
+            </ul>
+            <div class="bSection clear" id="bSection">
+                <div class="clear bTWap"><div class="bT"></div></div>
+                <div class="bT1">购物车快饿瘪了T.T</div>
+                <div class="bT2">主人快给我挑点宝贝吧</div>
+                <div class="bT3">去逛逛</div>
+            </div>
+            <ul id="bin"></ul>
+            
+        </section>
+
+        
+    </section>
+
+    <section id="page2" class="page out">
+        <ul class="p2Header clear">
+            <li><a href="#pPageWrap" data-rel="back">&lt;&nbsp;返回</a></li> 
+            <li>选择商品信息</li>
+        </ul>
+        <div id="pTan">请选择尺码、颜色分类</div>
+        <section id="pPage2" class="pages pageShow">
+            <ul class="pin clear">
+                <li><img id="Img" src="img2/31.jpg" ></li>
+                <li>娅莱娅夏休闲鞋厚底增高运动鞋女鞋透<br>气跑鞋运动风阿甘鞋网纱板鞋</li>
+            </ul>
+            <span class="pmoney" id="pmoney">￥28.00-37.00</span>
+            <div class="pSize">尺码</div>
+            <ul class="pSizein clear" id="pSizein">
+                <li>35</li>
+                <li>36</li>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+            </ul>
+
+            <div class="pColor">颜色分类</div>
+            <ul class="pColorin clear" id="pColorin">
+                <li>黑色</li>
+                <li>灰色</li>
+                <li>玫红</li>
+                <li>白色</li>
+                <li>紫色</li>
+                <li>月色</li>
+                <li>红色</li>
+            </ul>
+           
+            <div class="pNumber">数量</div>
+            <div class="pCom clear">
+                <div class="pCom1" id="pCom1">-</div>
+                <input type="text"  value="1" class="pCom2" id="pCom2" />
+                <div class="pCom3" id="pCom3">+</div>
+                <div class="pCom4">库存：1447件</div>
+            </div>
+            
+            <ul class="pBot clear">
+                <li>立即购买</li>
+                <li class="pSpe" id="pSpe">加入购物车</li>
+            </ul>
+            <script>
+                fnchoose();
+            </script>
+
+        </section>
+    </section>
+
+    </body>
+</html>
